@@ -1,3 +1,5 @@
+// * Lesson link: https://react-tutorial.app/app.html?id=387
+
 import React from "react";
 import { render } from "react-dom";
 

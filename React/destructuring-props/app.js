@@ -1,4 +1,4 @@
-// * Lesson from: https://react-tutorial.app/app.html?id=389
+// * Lesson link: https://react-tutorial.app/app.html?id=389
 
 import React from "react";
 import { render } from "react-dom";
