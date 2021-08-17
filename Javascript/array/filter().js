@@ -1,4 +1,5 @@
 // Filters items in an array based on true or false criteria and returns the new filtered items in a new array
+//! https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 //! https://www.udemy.com/course/modern-javascript/learn/lecture/9862376?
 /////
 const notes = [
