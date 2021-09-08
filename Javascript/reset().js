@@ -2,7 +2,7 @@
 
 ////
 //* example where it clears the forms input after submitted
-// #removes #delete #clear #form
+//# removes - delete - clear form
 ////
 addForm.addEventListener("submit", (e) => {
  e.preventDefault();

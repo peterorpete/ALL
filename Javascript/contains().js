@@ -2,7 +2,7 @@
 
 ////
 //* example where it searches if what is clicked contains a class of delete, and if it does it deletes is parent container.
-// #removes #delete #bin
+//# removes - delete - bin - trash
 ////
 list.addEventListener("click", (e) => {
  if (e.target.classList.contains("delete")) {
