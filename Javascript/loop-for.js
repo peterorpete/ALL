@@ -14,3 +14,13 @@ for (let i = 0; i < 9; i++) {
 
 console.log(str);
 // expected output: "012345678"
+
+////
+// * example 2 - Loop through arrays
+//# loop through arrays
+////
+let cards = [1, 6, 19, 47, 43];
+
+for (let i = 0; i < cards.length; i++) {
+ console.log(cards[i]);
+}
