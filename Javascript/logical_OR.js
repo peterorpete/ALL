@@ -17,3 +17,19 @@ console.log(fruits[1]) // Banana
 fruits[2] = "Pear";
 console.log(fruits);
 ///
+
+////
+//*  examples 2
+//# if one thing is true do something
+////
+
+let likesDocumentaries = true
+let likesStartups = true
+
+if (likesDocumentaries === true || likesStartups === true) {
+    recommendMovie()
+}
+
+function recommendMovie() {
+    console.log("Hey, check out this new film we think you will like!")
+}

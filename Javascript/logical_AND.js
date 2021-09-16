@@ -19,3 +19,18 @@ const mystery = "Password7";
 if (mystery[0] === "P" && mystery.length > 5 && mystery.indexOf("7") !== -1) {
  console.log("YOU GOT IT!!!");
 }
+
+////
+//* && example 3
+//# do something if all things are true
+////
+let hasCompletedCourse = true;
+let givesCertificate = true;
+
+function generateCertificate() {
+ console.log("Generating certificate....");
+}
+
+if (hasCompletedCourse && givesCertificate === true) {
+ generateCertificate();
+}
