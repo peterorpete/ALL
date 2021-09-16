@@ -3,6 +3,8 @@
 
 // An object is a collection of related data and/or functionality (which usually consists of several variables and functions — which are called properties and methods when they are inside objects.) Let's work through an example to understand what they look like.
 
+// Objects - store data in-depth - composite / complex data type
+
 ////
 //* object example 1
 ////
@@ -42,3 +44,17 @@ const restaurant = {
 };
 
 let fullAddress = restaurant.address + restaurant.city + restaurant.state + restaurant.zipcode;
+
+////
+//* object example 3
+////
+
+let castle = {
+ title: "Live like a king in my castle",
+ price: 190,
+ isSuperHost: true,
+ images: ["img/castle1.png", "img/caste2.png"],
+};
+
+console.log(castle.price);
+console.log(castle.isSuperHost);
