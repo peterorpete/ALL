@@ -37,3 +37,12 @@ let greetingEl = document.getElementById("greeting-el");
 for (let i = 0; i < sentence.length; i++) {
  greetingEl.textContent += `${sentence[i]} `;
 }
+
+////
+// * example 4 -
+//#
+////
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+for (let i = 0; i < people.length; i++) {
+ console.log(people[i].toUpperCase());
+}
