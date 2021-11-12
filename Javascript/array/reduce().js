@@ -33,3 +33,20 @@ const marioScores = gameScores.reduce((acc, curr) => {
 }, 0);
 
 console.log(marioScores);
+
+////
+//* Reduce method example 4
+////
+
+const prices = [9.99, 1.5, 19.99, 49.99, 20.4];
+
+const total = prices.reduce((total, price) => {
+ return total + price;
+});
+const minPrice = prices.reduce((min, price) => {
+ if (price < min) {
+  return price;
+ }
+ return min;
+});
+console.log(minPrice); //101.87
